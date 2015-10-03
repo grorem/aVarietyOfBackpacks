@@ -40,11 +40,11 @@ body.modal {
 .blur{
   width:100%;
 
-  background: url('../img/muted.jpg');
+  background: url('../img/anaconda/cascade.jpg');
   background-size: cover;
     background-repeat: no-repeat;
     background-attachment:fixed;
-    background-position: bottom;
+    background-position: top;
     position:fixed;
     height:100vh;
     z-index:-10;
@@ -232,6 +232,24 @@ h6{
   background: #033E6B;
 
 
+
+}
+
+
+.interject{
+
+  font-size:28px;
+  font-family:thin;
+  line-height:34px;
+
+}
+
+.intro p{
+
+  font-family:thin;
+  font-size:18px;
+  margin-top:20px;
+  text-align:center;
 
 }
 
@@ -787,11 +805,11 @@ text-decoration: none;
     background: url('../img/ua2015/med/sticks.jpg');
     background-size: cover;
 
-    -webkit-filter: brightness(80%);
-    -moz-filter: brightness(80%);
-    -o-filter: brightness(80%);
-    -ms-filter: brightness(80%);
-    filter: brightness(80%);
+    -webkit-filter: brightness(105%);
+    -moz-filter: brightness(105%);
+    -o-filter: brightness(105%);
+    -ms-filter: brightness(105%);
+    filter: brightness(105%);
     position:absolute;
 
     width:100%;
@@ -806,11 +824,11 @@ text-decoration: none;
     background: url('../img/GTNP/small/lower.jpg');
     background-size: cover;
 
-    -webkit-filter: brightness(80%);
-    -moz-filter: brightness(80%);
-    -o-filter: brightness(80%);
-    -ms-filter: brightness(80%);
-    filter: brightness(80%);
+    -webkit-filter: brightness(105%);
+    -moz-filter: brightness(105%);
+    -o-filter: brightness(105%);
+    -ms-filter: brightness(105%);
+    filter: brightness(105%);
     position:absolute;
 
     width:100%;
@@ -827,15 +845,36 @@ text-decoration: none;
 
 }
 
+
+
+.background_anaconda{
+  background: url('../img/anaconda/lakeElisabeth_med.jpg');
+  background-size: cover;
+
+  -webkit-filter: brightness(105%);
+  -moz-filter: brightness(105%);
+  -o-filter: brightness(105%);
+  -ms-filter: brightness(105%);
+  filter: brightness(105%);
+  position:absolute;
+
+  width:100%;
+  height:100%;
+
+
+
+}
+
+
   .background_colombia{
     background: url('../img/colombia/med/buildings.jpg');
     background-size: cover;
 
-    -webkit-filter: brightness(80%);
-    -moz-filter: brightness(80%);
-    -o-filter: brightness(80%);
-    -ms-filter: brightness(80%);
-    filter: brightness(80%);
+    -webkit-filter: brightness(105%);
+    -moz-filter: brightness(105%);
+    -o-filter: brightness(105%);
+    -ms-filter: brightness(105%);
+    filter: brightness(105%);
     position:absolute;
 
     width:100%;
@@ -856,11 +895,11 @@ text-decoration: none;
     background-size: cover;
 
 
-    -webkit-filter: brightness(80%);
-    -moz-filter: brightness(80%);
-    -o-filter: brightness(80%);
-    -ms-filter: brightness(80%);
-    filter: brightness(80%);
+    -webkit-filter: brightness(105%);
+    -moz-filter: brightness(105%);
+    -o-filter: brightness(105%);
+    -ms-filter: brightness(105%);
+    filter: brightness(105%);
     position:absolute;
 
     width:100%;
@@ -898,14 +937,31 @@ text-decoration: none;
   }
 
   .background_cr{
-    background: url('../img/cr/med/beans.jpg');
+    background: url('../img/cr/beans_med.jpg');
     background-size: cover;
 
-    -webkit-filter: brightness(80%);
-    -moz-filter: brightness(80%);
-    -o-filter: brightness(80%);
-    -ms-filter: brightness(80%);
-    filter: brightness(80%);
+    -webkit-filter: brightness(105%);
+    -moz-filter: brightness(105%);
+    -o-filter: brightness(105%);
+    -ms-filter: brightness(105%);
+    filter: brightness(105%);
+    position:absolute;
+
+    width:100%;
+    height:100%;
+
+  }
+
+
+  .background_cat{
+    background: url('../img/cat/md/arc.jpg');
+    background-size: cover;
+
+    -webkit-filter: brightness(105%);
+    -moz-filter: brightness(105%);
+    -o-filter: brightness(105%);
+    -ms-filter: brightness(105%);
+    filter: brightness(105%);
     position:absolute;
 
     width:100%;
@@ -917,11 +973,11 @@ text-decoration: none;
     background: url('../img/eurotrip/med/tram.jpg');
     background-size: cover;
 
-    -webkit-filter: brightness(80%);
-    -moz-filter: brightness(80%);
-    -o-filter: brightness(80%);
-    -ms-filter: brightness(80%);
-    filter: brightness(80%);
+    -webkit-filter: brightness(105%);
+    -moz-filter: brightness(105%);
+    -o-filter: brightness(105%);
+    -ms-filter: brightness(105%);
+    filter: brightness(105%);
     position:absolute;
 
     width:100%;
@@ -933,11 +989,11 @@ text-decoration: none;
     background: url('../img/puertorico/flowers.jpg');
     background-size: cover;
 
-    -webkit-filter: brightness(80%);
-    -moz-filter: brightness(80%);
-    -o-filter: brightness(80%);
-    -ms-filter: brightness(80%);
-    filter: brightness(80%);
+    -webkit-filter: brightness(105%);
+    -moz-filter: brightness(105%);
+    -o-filter: brightness(105%);
+    -ms-filter: brightness(105%);
+    filter: brightness(105%);
     position:absolute;
 
     width:100%;
@@ -950,11 +1006,11 @@ text-decoration: none;
     background: url('../img/wy/snyeg.jpg');
     background-size: cover;
 
-    -webkit-filter: brightness(80%);
-    -moz-filter: brightness(80%);
-    -o-filter: brightness(80%);
-    -ms-filter: brightness(80%);
-    filter: brightness(80%);
+    -webkit-filter: brightness(105%);
+    -moz-filter: brightness(105%);
+    -o-filter: brightness(105%);
+    -ms-filter: brightness(105%);
+    filter: brightness(105%);
     position:absolute;
 
     width:100%;
@@ -969,11 +1025,11 @@ text-decoration: none;
     background: url('../img/wy/snyeg.jpg');
     background-size: cover;
 
-    -webkit-filter: brightness(80%);
-    -moz-filter: brightness(80%);
-    -o-filter: brightness(80%);
-    -ms-filter: brightness(80%);
-    filter: brightness(80%);
+    -webkit-filter: brightness(105%);
+    -moz-filter: brightness(105%);
+    -o-filter: brightness(105%);
+    -ms-filter: brightness(105%);
+    filter: brightness(105%);
     position:absolute;
 
     width:100%;
@@ -988,11 +1044,11 @@ text-decoration: none;
     background: url('../img/ut/med/kings.jpg');
     background-size: cover;
 
-    -webkit-filter: brightness(80%);
-    -moz-filter: brightness(80%);
-    -o-filter: brightness(80%);
-    -ms-filter: brightness(80%);
-    filter: brightness(80%);
+    -webkit-filter: brightness(105%);
+    -moz-filter: brightness(105%);
+    -o-filter: brightness(105%);
+    -ms-filter: brightness(105%);
+    filter: brightness(105%);
     position:absolute;
 
     width:100%;
@@ -1006,11 +1062,11 @@ text-decoration: none;
     background: url('../img/co/med/elbSummit.jpg');
     background-size: cover;
 
-    -webkit-filter: brightness(80%);
-    -moz-filter: brightness(80%);
-    -o-filter: brightness(80%);
-    -ms-filter: brightness(80%);
-    filter: brightness(80%);
+    -webkit-filter: brightness(105%);
+    -moz-filter: brightness(105%);
+    -o-filter: brightness(105%);
+    -ms-filter: brightness(105%);
+    filter: brightness(105%);
     position:absolute;
 
     width:100%;
@@ -1024,11 +1080,11 @@ text-decoration: none;
     background: url('../img/ut/zionChain.jpg');
     background-size: cover;
 
-    -webkit-filter: brightness(80%);
-    -moz-filter: brightness(80%);
-    -o-filter: brightness(80%);
-    -ms-filter: brightness(80%);
-    filter: brightness(80%);
+    -webkit-filter: brightness(105%);
+    -moz-filter: brightness(105%);
+    -o-filter: brightness(105%);
+    -ms-filter: brightness(105%);
+    filter: brightness(105%);
     position:absolute;
 
     width:100%;
@@ -1042,11 +1098,11 @@ text-decoration: none;
     background: url('../img/ut/af/ridge.jpg');
     background-size: cover;
 
-    -webkit-filter: brightness(80%);
-    -moz-filter: brightness(80%);
-    -o-filter: brightness(80%);
-    -ms-filter: brightness(80%);
-    filter: brightness(80%);
+    -webkit-filter: brightness(105%);
+    -moz-filter: brightness(105%);
+    -o-filter: brightness(105%);
+    -ms-filter: brightness(105%);
+    filter: brightness(105%);
     position:absolute;
 
     width:100%;

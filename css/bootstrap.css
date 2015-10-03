@@ -5596,6 +5596,7 @@ button.close {
 
 .modal-open {
   overflow: hidden;
+
 }
 
 body.modal-open,
@@ -5638,6 +5639,12 @@ body.modal-open,
   padding: 10px;
   margin-right: auto;
   margin-left: auto;
+  background-color: rgba(0, 0, 0, 0.45);
+  color:#a1a1a1;
+}
+
+.modal-dialog h2{
+color: #e0696c;
 }
 
 .modal-content {
@@ -5653,6 +5660,7 @@ body.modal-open,
   bottom: 0;
   left: 0;
   z-index: 1030;
+  opacity:.9;
   background-color: #000000;
 }
 
