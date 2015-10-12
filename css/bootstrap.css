@@ -5636,11 +5636,11 @@ body.modal-open,
 .modal-dialog {
   z-index: 1050;
   width: auto;
-  padding: 10px;
+
   margin-right: auto;
   margin-left: auto;
-  background-color: rgba(0, 0, 0, 0.45);
-  color:#a1a1a1;
+
+  color:#333333;
 }
 
 .modal-dialog h2{
@@ -5649,8 +5649,6 @@ color: #e0696c;
 
 .modal-content {
   position: relative;
-
-
 }
 
 .modal-backdrop {
@@ -5660,8 +5658,9 @@ color: #e0696c;
   bottom: 0;
   left: 0;
   z-index: 1030;
-  opacity:.9;
-  background-color: #000000;
+  opacity:.2;
+  background-color: rgba(0, 0, 0, 1);
+  background-size:cover;
 }
 
 .modal-backdrop.fade {
@@ -5678,7 +5677,7 @@ color: #e0696c;
 .modal-header {
   min-height: 16.428571429px;
   padding: 15px;
-  border-bottom: 1px solid #e5e5e5;
+  background:url('../img/crossword.png');
 }
 
 .modal-header .close {
@@ -5692,7 +5691,8 @@ color: #e0696c;
 
 .modal-body {
   position: relative;
-  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.55);
+
 }
 
 .modal-footer {

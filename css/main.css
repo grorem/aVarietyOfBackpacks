@@ -244,12 +244,100 @@ h6{
 
 }
 
+
+.fitMoreInterjection {
+
+  font-family:thin;
+  font-size:18px;
+  margin-top:15px;
+
+  padding-left:5%;
+  padding-right:5%;
+
+}
+
 .intro p{
 
   font-family:thin;
   font-size:18px;
-  margin-top:20px;
+
   text-align:center;
+  padding-left:5%;
+  padding-right:5%;
+
+}
+
+.introWithMap p{
+
+  font-family:thin;
+  font-size:18px;
+
+  text-align:left;
+
+  padding-right:5%;
+
+}
+
+.introWithMap img{
+
+  max-width:100%;
+
+}
+
+
+.introImgs img{
+
+  max-width:550px;
+
+}
+
+.sideintro p{
+
+  font-family:thin;
+  font-size:18px;
+
+
+  padding-left:5%;
+  padding-right:5%;
+
+}
+
+.intro img{
+
+  width:100%;
+
+
+
+}
+
+.intro{
+
+  margin-bottom:25px;
+
+}
+
+.close{
+
+  margin-top:25px;
+  margin-right:25px;
+
+}
+
+.modalSection{
+
+  padding:55px 0 55px;
+  background:url('../img/crossword.png');
+  width:100%;
+  margin:75px 0 75px;
+
+}
+
+.modalSectionTop{
+
+  padding:0px 0 55px;
+  background:url('../img/crossword.png');
+  width:100%;
+  margin:0px 0 75px;
 
 }
 
@@ -440,14 +528,33 @@ list-style:none;
 .clear {clear: both;}
 
 
+.modal-dialog h2{
+  color: #e0696c;
+  margin-top:50px;
+}
+
+.modal-dialog h3{
+  color: #e0696c;
+  margin-bottom:25px;
+}
+
+.modal-dialog h4{
+  color: #e0696c;
+  margin-top:-22px;
+  font-family: light;
+
+	font-size: 17px;
+}
 
 
+.mapWide img{
 
+  max-width:105%;
+  margin-bottom:-350px;
 
+}
 
-
-
-.all{  background:#1a1a1a;}
+.all{  background:#000000;}
 
 .main{
 
@@ -891,7 +998,7 @@ text-decoration: none;
   }
 
   .background_nica{
-    background: url('../img/nicaragua/vista.jpg');
+    background: url('../img/nica/vista.jpg');
     background-size: cover;
 
 
