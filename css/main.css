@@ -48,6 +48,45 @@ body.modal {
     position:fixed;
     height:100vh;
     z-index:-10;
+
+    -webkit-filter: brightness(85%);
+    -moz-filter: brightness(85%);
+    -o-filter: brightness(85%);
+    -ms-filter: brightness(85%);
+    filter: brightness(85%);
+
+}
+
+.blurSub{
+  width:100%;
+
+  background: url('../img/backMosaic-07.png');
+  background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position: top;
+    position:fixed;
+    height:100vh;
+    z-index:-10;
+    opacity:.80;
+    -webkit-filter: brightness(45%);
+    -moz-filter: brightness(45%);
+    -o-filter: brightness(45%);
+    -ms-filter: brightness(45%);
+    filter: brightness(45%);
+}
+
+.blurSubSub{
+  width:100%;
+
+  background: url('../img/anaconda/cascade.jpg');
+  background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position: top;
+    position:fixed;
+    height:100vh;
+    z-index:-10;
 }
 
 .blurred{
@@ -66,16 +105,354 @@ body.modal {
 
 }
 
+
+.backcountrySection{
+
+padding-top:150px;
+height: 100%;
+width:100%;
+
+}
+
+
+.backcountrySection h2{
+
+font-size:55px;
+color:#48535a;
+margin-left:55px;
+
+
+}
+
+.backcountrySection h3{
+
+color:#48535a;
+margin-left:55px;
+margin-top:80%;
+
+
+}
+
+.backcountrySection h4{
+font-size:25px;
+color:#48535a;
+margin-left:60px;
+
+
+
+}
+
+.backcountrySection p{
+  color:#48535a;
+  margin-left:55px;
+  font-size: 16px;
+  width:300px;
+}
+
+
+.cta{
+  color:#67a5a3;
+  border:solid 1px;
+  border-color:#67a5a3;
+  margin-left:55px;
+  width:150px;
+  padding:1% 5% 1%;
+  text-align:center;
+
+}
+
+.cta:hover{
+  color:#ffffff;
+  background:#67a5a3;
+  text-decoration:none;
+  transition: all .2s ease-in-out;
+  cursor: pointer;
+
+}
+
+
+.mapBackground{
+
+  height:100%;
+  width:50%;
+  background:url('../img/anaconda/kingsMap-01.png');
+  background-size:contain;
+  border-right:solid 1px;
+  border-color:black;
+
+
+}
+
+.sectionLeft{
+  border-right:1px solid;
+  border-color:#333333;
+  height:1000px;
+  width:50%;
+  background:url('../img/anaconda/kingsMap-01.png');
+  background-size:cover;
+
+
+
+}
+
+
+.carry_2 {
+  display:none;
+}
+
+
+.carryOnSection{
+    margin-top:50px;
+    background:#f2f2f2;
+}
+
+.carryOnSectionMainBack_1{
+  height:95vh;
+  width:100%;
+  background:url('../img/svitloSection-07.png');
+  background-size:cover;
+  background-position: bottom;
+}
+
+.carryOnSectionMainBack_2{
+  height:95vh;
+  width:100%;
+  background:url('../img/nica/nicaBack-09.png');
+  background-size:cover;
+  background-position: bottom;
+
+  display:none;
+}
+
+.carryOnSectionLeft{
+  padding: 350px 120px 0;
+}
+
+
+.ctaNica{
+  color:#ffffff;
+
+  background:#67a5a3;
+  margin-top:15px;
+  width:150px;
+  padding:1% 5% 1%;
+  text-align:center;
+
+}
+
+.ctaNica:hover{
+  color:#ffffff;
+  background: #e0696c;
+  text-decoration:none;
+  transition: all .2s ease-in-out;
+  cursor: pointer;
+}
+
+
+
+.carryOnSection h2{
+
+font-size:55px;
+color:#48535a;
+margin-left:55px;
+margin-top:125px;
+
+
+}
+
+.carryOnSection h3{
+
+color:#48535a;
+margin-left:55px;
+
+
+}
+
+.carryOnSection h4{
+font-size:25px;
+color:#48535a;
+margin-left:60px;
+
+
+
+}
+
+
+.mapSectional{
+    z-index:5;
+}
+
+.maplessSectional{
+    z-index:5;
+}
+
+.mapSectional img{
+
+  max-width:75%;
+  margin-left:105px;
+  z-index:5;
+}
+
+.maplessSectional img{
+
+  max-width:75%;
+  margin-left:105px;
+  z-index:5;
+}
+
+.mapSectional h2{
+
+font-size:55px;
+color:#48535a;
+margin-left:55px;
+margin-top:125px;
+
+
+}
+
+.mapSectional h3{
+
+color:#48535a;
+margin-left:55px;
+
+
+}
+
+.mapSectional h4{
+font-size:25px;
+color:#48535a;
+margin-left:60px;
+
+
+
+}
+
+
+.mainPic{
+  position:absolute;
+  left:25%;
+  top:325px;
+  margin:auto;
+  width:50%;
+  z-index: 10;
+
+}
+
+.mainPic img{
+
+width:100%;
+}
+
+.btnLeft{
+
+  position:absolute;
+  left:10%;
+  top:40%;
+  z-index: 10;
+}
+
+.btnLeft:hover{
+
+  transition: all .2s ease-in-out;
+  transform: scale(1.15);
+  cursor:pointer;
+}
+
+
+.btnRight{
+  position:absolute;
+  right:10%;
+  top:40%;
+  z-index: 10;
+}
+
+
+.btnRight:hover{
+  transition: all .2s ease-in-out;
+  transform: scale(1.15);
+  cursor:pointer;
+}
+
+
+
+.btnLeft img{
+  max-width:100px;
+}
+
+.btnRight img{
+  max-width:100px;
+}
+
+
+
+.backCountry_2{
+  display:none;
+}
+
+
+
+.summitSectionMainBack{
+  height:100vh;
+  width:100%;
+  background:url('../img/radialMtn.jpg');
+  background-size:cover;
+  background-position: top;
+  padding-top:200px;
+  padding-bottom:200px;
+  margin-top:-150px;
+  z-index:1;
+}
+
+
+.grid1{
+
+  height:450px;
+  background:url('../img/ut/zionChain.jpg');
+  background-size:cover;
+  background-position: center;
+}
+
+.grid2{
+  height:450px;
+  margin-top:75px;
+  background:url('../img/af/winter/opening.jpg');
+  background-size:cover;
+  background-position: center;
+}
+
+.grid3{
+  height:450px;
+  background:url('../img/af/spring/littleCottonwood.jpg');
+  background-size:cover;
+  background-position: center;
+}
+
+.grid4{
+  height:450px;
+  margin-top:75px;
+  background:url('../img/anaconda/cascade.jpg');
+  background-size:cover;
+  background-position: center;
+}
+
+.grid5{
+  height:450px;
+  background:url('../img/anaconda/ut/summit.jpg');
+  background-size:cover;
+  background-position: center;
+}
+
+
+
+
+
+
+
+
 .gallery{
   font-size:45px;
-
-
-
-
   padding:5%;
-
   z-index:25;
-
 }
 
 
@@ -84,6 +461,12 @@ body.modal {
 
   max-width:100%;
   margin-bottom:15px;
+
+}
+
+.gallery img:hover{
+
+  opacity:.85;
 
 }
 
@@ -169,7 +552,7 @@ h6{
 .header{
   width:100%;
   height:100vh;
-  padding:20% 50px 50px;
+  padding:12% 50px 50px;
   color:#68AEA0;
 
 
@@ -178,6 +561,48 @@ h6{
   text-align: center;
 
   z-index:100;
+}
+
+.icoRow {
+
+  margin: auto;
+  margin-top:7%;
+}
+
+.packIcon{
+  float:left;
+  padding:5px;
+  margin: auto;
+
+}
+
+
+
+.desc{
+  display:block;
+  float:left;
+  text-align:left;
+  margin-left:10px;
+  margin-top:-30px;
+}
+
+.header h4{
+  font-family: light;
+  color: #ffffff;
+
+  font-size:20px;
+}
+
+.header h5{
+  font-family: thin;
+  color: #ffffff;
+  font-size:16px;
+
+}
+
+.packIcon img{
+  max-height:75px;
+  float:left;
 }
 
 .cirqueExp{
@@ -409,10 +834,25 @@ color:white;
 width:100%;
 margin:auto;
 border-bottom:solid 1px;
-
+position:fixed;
 border-color:#333333;
 
-opacity:.9;
+opacity:.8;
+
+}
+
+.nav img{
+
+  max-width:44px;
+
+}
+
+.subber{
+
+  display:block;
+  font-size:12px;
+  font-style:italic;
+  margin-top:-12px;
 
 }
 
@@ -549,12 +989,12 @@ list-style:none;
 
 .mapWide img{
 
-  max-width:105%;
-  margin-bottom:-350px;
+  max-width:100%;
+  margin-bottom:-120px;
 
 }
 
-.all{  background:#000000;}
+.all{  background:url('../img/crossword.png');}
 
 .main{
 

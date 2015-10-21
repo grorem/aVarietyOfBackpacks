@@ -773,8 +773,7 @@ pre code {
 }
 
 .row {
-  margin-right: -15px;
-  margin-left: -15px;
+
 }
 
 .row:before,
@@ -847,7 +846,7 @@ pre code {
 .col-lg-12 {
   position: relative;
   min-height: 1px;
-  padding-right: 15px;
+
 
 }
 
@@ -1088,7 +1087,7 @@ pre code {
     width: 8.333333333333332%;
   }
   .col-md-2 {
-    width: 16.666666666666664%;
+    width: 20%;
   }
   .col-md-3 {
     width: 25%;
@@ -5745,7 +5744,7 @@ color: #e0696c;
     left: 50%;
     width: 90%;
     max-width:1600px;
-    padding-top: 30px;
+    padding-top: 90px;
     padding-bottom: 30px;
   }
   .modal-content {
