@@ -1,3 +1,15 @@
+$(function() {
+  $(".mainPic").mouseenter(function(){
+    $(".mainPiccta").fadeIn(50);
+  });
+});
+
+$(function() {
+  $(".mainPic").mouseleave(function(){
+    $(".mainPiccta").fadeOut(50);
+  });
+});
+
 
 
 $(function() {

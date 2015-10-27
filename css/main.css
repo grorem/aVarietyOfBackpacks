@@ -24,14 +24,15 @@ body{
 
 	line-height:28px;
 	font-size:14px;
-
-
-
 }
+
+
 
 body, body.modal {
     margin-right: 0 !important;
 }
+
+
 
 body.modal {
     overflow-y: hidden;
@@ -95,13 +96,102 @@ body.modal {
   -webkit-filter: brightness(75%) blur(40px);
 }
 
+
+.alls{
+  width:100%;
+
+  background: url('../img/anaconda/intro-11.png');
+  background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position: top;
+    position:fixed;
+    height:100vh;
+    z-index:-10;
+
+    -webkit-filter: brightness(55%);
+    -moz-filter: brightness(55%);
+    -o-filter: brightness(55%);
+    -ms-filter: brightness(55%);
+    filter: brightness(55%);
+
+
+}
+
+.leftistsBack{
+  padding:15px;
+  background:white;
+  opacity:.25;
+  height:100vh;
+  position:fixed;
+}
+
+.leftists {
+    padding:18px;
+}
+
+.leftists img{
+  margin-top:25px;
+  margin-bottom:25px;
+  width:105%;
+
+}
+
+.leftists h2 h3{
+  color:#ffffff;
+  margin-bottom:30px;
+}
+
+.leftists p{
+  color:#ffffff;
+  font-family: thin;
+  font-size:16px;
+}
+
+
+.galleryArea{
+    padding:25px;
+}
+
+.galleryArea p{
+    padding:25px;
+    font-family: thin;
+    font-size:18px;
+}
+
+
+.galleryArea img{
+  max-width: 100%;
+  padding-bottom:1%;
+  padding-right:1%;
+  padding-left:1%;
+}
+
+
 .interjection {
 
   text-align:center;
   margin-top:150px;
   margin-bottom:250px;
 
+}
 
+
+.backCountry{
+
+  padding-bottom:25px;
+
+}
+
+
+.manymtns{
+  position:absolute;
+  bottom:0;
+  height:300px;
+  width:520px;
+  margin-left:25px;
+  background:url('../img/manymtns-11.png');
+  background-size:contain;
 
 }
 
@@ -120,12 +210,13 @@ width:100%;
 font-size:55px;
 color:#48535a;
 margin-left:55px;
-
+font-family: 'Vollkorn', serif;
 
 }
 
 .backcountrySection h3{
 
+font-family: 'Vollkorn', serif;
 color:#48535a;
 margin-left:55px;
 margin-top:80%;
@@ -137,6 +228,7 @@ margin-top:80%;
 font-size:25px;
 color:#48535a;
 margin-left:60px;
+font-family:thin;
 
 
 
@@ -147,27 +239,57 @@ margin-left:60px;
   margin-left:55px;
   font-size: 16px;
   width:300px;
+  font-family:thin;
 }
 
 
 .cta{
-  color:#67a5a3;
-  border:solid 1px;
-  border-color:#67a5a3;
+  color:#ffffff;
   margin-left:55px;
+  background:#67a5a3;
+  margin-top:15px;
   width:150px;
   padding:1% 5% 1%;
   text-align:center;
+  font-family: 'Vollkorn', serif;
 
 }
 
 .cta:hover{
   color:#ffffff;
-  background:#67a5a3;
+  background: #e0696c;
   text-decoration:none;
   transition: all .2s ease-in-out;
   cursor: pointer;
 
+}
+
+.mainPiccta{
+  position: absolute;
+  top:42%;
+  left:38%;
+  color:#ffffff;
+  margin:auto;
+  background:#67a5a3;
+
+  width:150px;
+  padding:1% 5% 1%;
+  text-align:center;
+
+  display:none;
+}
+
+.mainPiccta:hover{
+  color:#ffffff;
+  background: #e0696c;
+  text-decoration:none;
+  transition: all .2s ease-in-out;
+  cursor: pointer;
+
+}
+
+a:hover{
+  text-decoration: none;
 }
 
 
@@ -224,6 +346,17 @@ margin-left:60px;
   display:none;
 }
 
+
+.carryOnSectionMainBack_3{
+  height:95vh;
+  width:100%;
+  background:url('../img/se-11.png');
+  background-size:cover;
+  background-position: bottom;
+
+  display:none;
+}
+
 .carryOnSectionLeft{
   padding: 350px 120px 0;
 }
@@ -256,6 +389,7 @@ font-size:55px;
 color:#48535a;
 margin-left:55px;
 margin-top:125px;
+font-family: 'Vollkorn', serif;
 
 
 }
@@ -272,7 +406,7 @@ margin-left:55px;
 font-size:25px;
 color:#48535a;
 margin-left:60px;
-
+font-family: thin;
 
 
 }
@@ -306,6 +440,7 @@ font-size:55px;
 color:#48535a;
 margin-left:55px;
 margin-top:125px;
+font-family: 'Vollkorn', serif;
 
 
 }
@@ -322,6 +457,7 @@ margin-left:55px;
 font-size:25px;
 color:#48535a;
 margin-left:60px;
+font-family: thin;
 
 
 
@@ -339,8 +475,18 @@ margin-left:60px;
 }
 
 .mainPic img{
+  width:100%;
+}
 
-width:100%;
+.mainPic:hover{
+
+    transition: all .2s ease-in-out;
+
+  -webkit-filter: brightness(45%);
+  -moz-filter: brightness(45%);
+  -o-filter: brightness(45%);
+  -ms-filter: brightness(45%);
+  filter: brightness(45%);
 }
 
 .btnLeft{
@@ -365,6 +511,10 @@ width:100%;
   top:40%;
   z-index: 10;
 }
+
+
+
+
 
 
 .btnRight:hover{
@@ -501,7 +651,7 @@ h1{
 
 
 h2{
-	font-family: thin;
+font-family: 'Vollkorn', serif;
 	color: #ffffff;
 	font-size: 46px
 
@@ -587,7 +737,7 @@ h6{
 }
 
 .header h4{
-  font-family: light;
+font-family: 'Vollkorn', serif;
   color: #ffffff;
 
   font-size:20px;
@@ -981,7 +1131,7 @@ list-style:none;
 .modal-dialog h4{
   color: #e0696c;
   margin-top:-22px;
-  font-family: light;
+  font-family: thin;
 
 	font-size: 17px;
 }
