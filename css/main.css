@@ -187,6 +187,11 @@ body.modal {
   padding-left:1%;
 }
 
+.fullImg img{
+  max-width: 100%;
+  padding:5%;
+
+}
 
 .interjection {
 
@@ -510,13 +515,107 @@ max-width: 90%;
 
 }
 
+.allHeader{
+
+  height:100vh;
+
+}
+
+.rightMapArea{
+  padding-left:15%;
+  padding-top:5%;
+}
+
+.rightMapArea p{
+  color:#333333;
+  font-size: 18px;
+  font-family:thin;
+  width:77%;
+}
+
+.rightMapArea h3{
+  color:#333333;
+  font-size: 24px;
+  font-family:vollkorn;
+}
+
+.leftPic h3{
+  color:#333333;
+  margin-left: 255px;
+  margin-bottom:1px;
+}
+
+
+
+.leftPic img{
+
+  max-width:85%;
+  margin-left:15%;
+  margin-top:10%;
+
+}
+
+.title{
+
+  margin-top:20%;
+
+
+}
+
+.headerBox{
+    position:absolute;
+    margin-left:30%;
+    margin-top:10%;
+    height:400px;
+    width:500px;
+    border:solid 5px;
+    border-color:#333333;
+}
+
+.tripHeader{
+  padding:10%;
+  margin-left:25px;
+}
+
+.tripHeader p{
+  color:#333333;
+  font-size:18px;
+  font-family:thin;
+  padding:1% 5% 1%;
+  border-left:solid 1px;
+  border-color:#48535a;
+}
+
+.tripHeader h1{
+  color:#333333;
+  font-family:vollkorn;
+}
+
+.tripHeader h3{
+  color:#333333;
+  font-family:vollkorn;
+  line-height: 32px;
+  margin-bottom:25px;
+}
+
+.anacondaHeader{
+  position:absolute;
+  height:100vh;
+  width:100%;
+  background:url('../img/anaconda/anacondaBack-12.png');
+  background-size: cover;
+  background-position: top;
+  opacity:.45;
+}
+
 
 .intertext{
   float:left;
   margin-top:25px;
-  padding:3%;
+  padding:5%;
   font-size: 18px;
   max-width:70%;
+  font-family:vollkorn;
 }
 
 .intertext p{
@@ -1970,7 +2069,6 @@ text-decoration: none;
 
 
 .yearBadge{
-
   position: relative;
     z-index: 5;
     top: -100px;
@@ -1986,7 +2084,67 @@ text-decoration: none;
     display: block;
     overflow: hidden;
     margin-bottom:-200px;
+}
 
+
+.navBadge{
+  position: relative;
+    z-index: 5;
+    top: 30px;
+    width: 75px;
+    height: 75px;
+    background: #e0696c;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    left: 55px;
+
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    overflow: hidden;
+    position:fixed;
+    z-index:20;
+}
+
+.navBadge:hover{
+  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  cursor: pointer;
+}
+
+
+.backBtn{
+  position: relative;
+    z-index: 5;
+    top: 55px;
+    width: 25px;
+    height: 25px;
+
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    left: 15px;
+
+    border-top:solid 6px;
+    border-left:solid 6px;
+
+    border-color:#e0696c;
+
+
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    overflow: hidden;
+    position:fixed;
+    z-index:20;
+}
+
+
+.backBtn:hover{
+
+  border-top:solid 8px;
+  border-left:solid 8px;
+  border-color:#e0696c;
+  cursor: pointer;
 
 }
 
