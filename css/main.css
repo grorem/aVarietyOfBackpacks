@@ -660,6 +660,15 @@ max-width: 90%;
 }
 
 
+.afWinterHeader{
+  position:absolute;
+  height:100vh;
+  width:100%;
+background:url('../img/af/winter/winterTrees-12.png');  background-size: cover;
+  background-position: top;
+  opacity:.45;
+}
+
 .intertext{
   float:left;
   margin-top:55px;
