@@ -277,7 +277,6 @@ font-family:thin;
   padding:1% 5% 1%;
   text-align:center;
   font-family: 'Vollkorn', serif;
-
 }
 
 .cta:hover{
@@ -287,6 +286,26 @@ font-family:thin;
   transition: all .2s ease-in-out;
   cursor: pointer;
 
+}
+
+.gridcta{
+  color:#ffffff;
+  border:solid 1px;
+  border-color:#ffffff;
+  margin-top:15px;
+  width:150px;
+  padding:2% 7% 2%;
+  text-align:center;
+  font-family: 'Vollkorn', serif;
+}
+
+.gridcta:hover{
+  color:#ffffff;
+  background: #67a5a3;
+  border-color: #67a5a3;
+  text-decoration:none;
+  transition: all .2s ease-in-out;
+  cursor: pointer;
 }
 
 .mainPiccta{
@@ -369,7 +388,7 @@ a:hover{
 .carryOnSectionMainBack_3{
   height:95vh;
   width:100%;
-  background:url('../img/nica/nicaBack-09.png');
+    background:url('../img/se-11.png');
   background-size:cover;
   background-position: bottom;
 
@@ -379,7 +398,7 @@ a:hover{
 .carryOnSectionMainBack_2{
   height:95vh;
   width:100%;
-  background:url('../img/se-11.png');
+  background:url('../img/spainBkgnd-10.png');
 
   background-size:cover;
   background-position: bottom;
@@ -391,8 +410,8 @@ a:hover{
 .carryOnSectionMainBack_1{
   height:95vh;
   width:100%;
+  background:url('../img/nica/nicaBack-09.png');
 
-  background:url('../img/spainBkgnd-10.png');
   background-size:cover;
   background-position: bottom;
 
@@ -841,43 +860,118 @@ font-family: thin;
 
 
 .grid1{
-
   height:450px;
-  background:url('../img/ut/zionChain.jpg');
-  background-size:cover;
-  background-position: center;
+}
+
+.grid1back{
+position:absolute;
+background:url('../img/ut/zionChain.jpg');
+background-size:cover;
+background-position: center;
+height:450px;
+width:100%;
+
+}
+
+.grid1Info{
+
+  position:absolute;
+  bottom:10%;
+  left:15px;
+  display:none;
 }
 
 .grid2{
   height:450px;
   margin-top:75px;
-  background:url('../img/af/winter/opening.jpg');
-  background-size:cover;
-  background-position: center;
+
+}
+
+.grid2back{
+position:absolute;
+background:url('../img/af/winter/opening.jpg');
+background-size:cover;
+background-position: center;
+height:450px;
+width:100%;
+
+}
+
+.grid2Info{
+
+  position:absolute;
+  bottom:10%;
+  left:15px;
+  display:none;
 }
 
 .grid3{
   height:450px;
-  background:url('../img/af/spring/littleCottonwood.jpg');
-  background-size:cover;
-  background-position: center;
+}
+
+.grid3back{
+position:absolute;
+background:url('../img/af/spring/littleCottonwood.jpg');
+background-size:cover;
+background-position: center;
+height:450px;
+width:100%;
+
+}
+
+.grid3Info{
+
+  position:absolute;
+  bottom:10%;
+  left:15px;
+  display:none;
 }
 
 .grid4{
   height:450px;
   margin-top:75px;
-  background:url('../img/anaconda/cascade.jpg');
-  background-size:cover;
-  background-position: center;
+
 }
+
+.grid4back{
+position:absolute;
+background:url('../img/anaconda/cascade.jpg');
+background-size:cover;
+background-position: center;
+height:450px;
+width:100%;
+}
+
+.grid4Info{
+
+  position:absolute;
+  bottom:10%;
+  left:15px;
+  display:none;
+}
+
+
 
 .grid5{
   height:450px;
-  background:url('../img/anaconda/ut/summit.jpg');
-  background-size:cover;
-  background-position: center;
 }
 
+.grid5back{
+position:absolute;
+background:url('../img/anaconda/ut/summit.jpg');
+background-size:cover;
+background-position: center;
+height:450px;
+width:100%;
+}
+
+.grid5Info{
+
+  position:absolute;
+  bottom:10%;
+  left:15px;
+  display:none;
+}
 
 
 
@@ -955,7 +1049,8 @@ h3{
 
 
 h4{
-
+  font-family: 'Vollkorn', serif;
+  	color: #ffffff;
 
 }
 
@@ -1726,12 +1821,15 @@ text-decoration: none;
 }
 
 .blurred{
+  transition: brightness 2s;
+  -moz-transition: brightness 2s;
+  -webkit-transition: brightness 2s;
 
-  -webkit-filter: brightness(45%) blur(5px);
-  -moz-filter: brightness(45%) blur(5px);
-  -o-filter: brightness(45%) blur(5px);
-  -ms-filter: brightness(45%) blur(5px);
-  filter: brightness(45%) blur(5px);
+  -webkit-filter: brightness(75%) blur(1px);
+  -moz-filter: brightness(75%) blur(1px);
+  -o-filter: brightness(75%) blur(1px);
+  -ms-filter: brightness(75%) blur(1px);
+  filter: brightness(75%) blur(1px);
 
 }
 
