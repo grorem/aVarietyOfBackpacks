@@ -801,16 +801,6 @@ font-family: thin;
   width:100%;
 }
 
-.mainPic:hover{
-
-    transition: all .2s ease-in-out;
-
-  -webkit-filter: brightness(45%);
-  -moz-filter: brightness(45%);
-  -o-filter: brightness(45%);
-  -ms-filter: brightness(45%);
-  filter: brightness(45%);
-}
 
 .btnLeft{
 
@@ -1866,9 +1856,10 @@ text-decoration: none;
 }
 
 .blurred{
-  transition: brightness 2s;
-  -moz-transition: brightness 2s;
-  -webkit-transition: brightness 2s;
+  transition: all .4s ease-out;
+  -moz-transition: all .4s ease-out;
+  -webkit-transition:  all .4s ease-out;
+  -ms-transition:  all .4s ease-out;
 
   -webkit-filter: brightness(75%) blur(1px);
   -moz-filter: brightness(75%) blur(1px);
