@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A Variety of Backpacks">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="img/mountainicon.png">
+
+    <title>AVoB</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="stylesheet" media="all" type="text/css" href="css/jquery-rebox.css" />
+    <link href='https://fonts.googleapis.com/css?family=Vollkorn:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+
+
+      <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!--[if lt IE 9]>
+        <script src="../../assets/js/html5shiv.js"></script>
+        <script src="../../assets/js/respond.min.js"></script>
+      <![endif]-->
+
+
+
+  </head>
+
+  <body>
+
+
+
+
+
+
+
+
+    <div class="all">
+      <a href="index.html"><div class ="backBtn"></div></a>
+      <div class ="navBadge"></div>
+
+      <div class="anacondaHeader">
+      </div>
+
+        <div class="row allHeader">
+
+            <div class="headerBox"></div>
+
+              <div class="leftPic col-md-6">
+                <h3>40˚ 26' 46.32" N</h3>
+                <h3>111˚ 37' 43.59" W</h3>
+                  <img src="img/anaconda/cascade.jpg">
+              </div>
+
+              <div class="sideMap col-md-6">
+                <div id="top" class="tripHeader title">
+                  <h1>American Fork Canyon Utah</h1>
+                  <h3>Snowy jaunts in the wintertime</h3>
+                </div>
+              </div>
+
+          </div>
+
+
+  <div class ="yearBadge"></div>
+
+
+
+  <div class="row galleryRow col-md-12">
+
+    <div class="interintertext">
+      <h3>Pine Hollow Trail</h3>
+      <h4>in a winter wonderland / <a target="_blank" href="https://www.google.com/maps/place/40%C2%B026'46.3%22N+111%C2%B037'43.6%22W/@40.4437157,-111.636454,13.29z/data=!4m2!3m1!1s0x0:0x0!5m1!1e4">40˚ 26' 46.32"N,  111˚ 37' 43.59"W</a></h4>
+
+      <p>
+        However, great care must be taken regarding the avalanche danger, as this area has
+        been known to be prone to such, at times taking lives.
+    </p>
+    </div>
+
+    <div class="fullImg">
+        <img src="img/anaconda/ut/basinFlowers.jpg">
+    </div>
+
+  </div>
+
+
+      <div class="row galleryRow col-md-12">
+
+        <div class="col-md-6 leftGallery">
+          <img src="img/anaconda/ut/shadows.jpg">
+
+          <div class="intertext">
+            <p>
+              Making our way south, at about 8 miles in we arrived to where we'd set up camp and go for some water
+              where, among the signs of sunset against the ridge, in the photo to the right you can see Kings Peak
+              sticking up behind the middle of the ridge that is to the right of the gap.
+          </p>
+          </div>
+        </div>
+
+              <div class="col-md-12 midColor"></div>
+
+              <div class="col-md-5">
+
+              </div>
+
+          <div class="col-md-7">
+
+            <div class="bajorb">
+              <img src="img/anaconda/ut/balance.jpg">
+            </div>
+
+            <div class="rightGallery">
+              <img src="img/anaconda/ut/sunset.jpg">
+            </div>
+
+          </div>
+
+      </div> <!-- ROW END -->
+
+
+
+
+</div>
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+  <!--  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>-->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+  <script type="text/javascript" src="js/jquery-rebox.js"></script>
+  <script type="text/javascript" src="js/jquery-litelighter.js"></script>
+
+
+  <script type="text/javascript">
+
+    $(document).ready(function(){
+      // quick routine for scrolling nav
+      var $nav = $('.header ul'),
+        navoffset = $nav.offset(),
+        $navclone = $nav.clone().addClass('scrollnav').appendTo('.header'),
+        $window = $(window);
+      $window.scroll(function(e){
+        if((navoffset.top+50) < $window.scrollTop()){
+          if(!$navclone.hasClass('scrolled'))
+            $navclone.addClass('scrolled');
+        }
+        else $navclone.removeClass('scrolled');
+      }).scroll();
+
+      // highlight the code
+      $('pre.code').litelighter();
+
+      // run the examples
+      $('.example-container > pre.ex').each(function(i){
+        eval($(this).data('llcode'));
+      });
+    });
+  </script>
+
+
+
+
+</body></html>

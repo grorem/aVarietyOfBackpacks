@@ -874,11 +874,26 @@ width:100%;
 }
 
 .grid1Info{
-
   position:absolute;
   bottom:10%;
   left:15px;
   display:none;
+}
+
+.grid1Info img{
+  max-width:55px;
+  float:left;
+  margin-top:5px;
+  margin-right:5px;
+}
+
+.grid1Info h6{
+
+  	font-family: vollkorn;
+  	color: #ffffff;
+  	font-size: 16px;
+    margin-bottom:95%;
+    line-height: 22px;
 }
 
 .grid2{
@@ -903,6 +918,22 @@ width:100%;
   bottom:10%;
   left:15px;
   display:none;
+}
+
+.grid2Info h6{
+
+  	font-family: vollkorn;
+  	color: #ffffff;
+  	font-size: 16px;
+    margin-bottom:115%;
+    line-height: 22px;
+}
+
+.grid2Info img{
+  max-width:55px;
+  float:left;
+  margin-top:5px;
+  margin-right:5px;
 }
 
 .grid3{
@@ -1066,10 +1097,6 @@ h5{
 
 h6{
 
-	margin-top: 15px;
-	font-family: light;
-	color: #ffffff;
-	font-size: 16px;
 
 }
 
