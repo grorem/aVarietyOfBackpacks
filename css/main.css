@@ -688,6 +688,16 @@ background:url('../img/utNP/bristleconeSketch-06.png');  background-size: cover;
 }
 
 
+.catalunyaHeader{
+  position:absolute;
+  height:100vh;
+  width:100%;
+background:url('../img/cat/catalunyaBack-07.png');  background-size: cover;
+  background-position: left;
+  opacity:.45;
+}
+
+
 .intertext{
   float:left;
   margin-top:55px;
