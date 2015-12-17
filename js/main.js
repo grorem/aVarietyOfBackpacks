@@ -88,15 +88,17 @@ $(function() {
 
 
 
-
 $(function() {
   var i = 1;
 
   $(".btncRight").click(function(){
 
+if(i < 4){
     $(".carryOnSectionMainBack_"+i).fadeOut(400);
       i++;
         $(".carryOnSectionMainBack_"+i).delay(.200).fadeIn(600);
+    };
+
   });
 
   $(".btncLeft").click(function(){
