@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JQVMap - World Map</title>
+    <link href="map/dist/jqvmap.css" media="screen" rel="stylesheet" type="text/css">
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="map/dist/jquery.vmap.js"></script>
+    <script type="text/javascript" src="map/dist/maps/jquery.vmap.world.js" charset="utf-8"></script>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="stylesheet" media="all" type="text/css" href="css/jquery-rebox.css" />
+    <link href='https://fonts.googleapis.com/css?family=Vollkorn:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+
+    <script type="text/javascript">
+    jQuery(document).ready(function() {
+      jQuery('#vmap').vectorMap({
+
+        map: 'world_en',
+        backgroundColor: 'rgb(255,0,255,0.0)',
+        borderColor: '#ffffff',
+        borderOpacity: 1,
+        borderWidth: .25,
+        color: '#f4f3f0',
+        enableZoom: true,
+        hoverColor: '#67a5a3',
+        hoverOpacity: null,
+        normalizeFunction: 'linear',
+        scaleColors: ['#b6d6ff', '#005ace'],
+        selectedColor: '#e0696c',
+        selectedRegions: ['US','MX','NI','CO','PA','CL','CZ','UA','ES','FR','DE','SE','NO','PL','SK','RO','HU','CR','AT','SI','HR','CH'],
+        showTooltip: true,
+
+    });
+    });
+    </script>
+  </head>
+  <body>
+
+    <div class="mapBlur">
+    </div>
+
+    <center><div id="vmap" style="width: 900px; height: 600px;"></div></center>
+  </body>
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="American Fork Canyon in the winter. Snowshoeing, pine hollow trail and mt timpanogos">
+    <meta name="author" content="Greg Rorem">
+    <link rel="shortcut icon" href="img/mountainicon.png">
+
+    <title>AVoB - Photo Map</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="jquery-jvectormap-2.0.3.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="stylesheet" media="all" type="text/css" href="css/jquery-rebox.css" />
+    <link href='https://fonts.googleapis.com/css?family=Vollkorn:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+
+
+      <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!--[if lt IE 9]>
+        <script src="../../assets/js/html5shiv.js"></script>
+        <script src="../../assets/js/respond.min.js"></script>
+      <![endif]-->
+
+
+
+  </head>
+
+  <body>
+
+
+
+
+
+
+
+
+    <div class="all">
+      <a href="index.html"><div class ="backBtn"></div></a>
+      <div class ="navBadge"></div>
+
+      <div class="afWinterHeader">
+      </div>
+
+        <div class="row allHeader">
+
+
+
+
+
+          </div>
+
+  <div class="row galleryRow col-md-12">
+
+    <div class="interintertext">
+      <h3>Placename, China, Spain</h3>
+    </div>
+
+
+
+
+
+    <div id="world-map" style="width: 600px; height: 400px"></div>
+      <script>
+        $(function(){
+          $('#world-map').vectorMap();
+        });
+      </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+  <!--  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>-->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+  <script type="text/javascript" src="js/jquery-rebox.js"></script>
+  <script type="text/javascript" src="js/jquery-litelighter.js"></script>
+    <script type="text/javascript" src="jquery-jvectormap-2.0.3.min.js"></script>
+    <script type="text/javascript" src="world.js"></script>
+
+  <script type="text/javascript">
+
+    $(document).ready(function(){
+      // quick routine for scrolling nav
+      var $nav = $('.header ul'),
+        navoffset = $nav.offset(),
+        $navclone = $nav.clone().addClass('scrollnav').appendTo('.header'),
+        $window = $(window);
+      $window.scroll(function(e){
+        if((navoffset.top+50) < $window.scrollTop()){
+          if(!$navclone.hasClass('scrolled'))
+            $navclone.addClass('scrolled');
+        }
+        else $navclone.removeClass('scrolled');
+      }).scroll();
+
+      // highlight the code
+      $('pre.code').litelighter();
+
+      // run the examples
+      $('.example-container > pre.ex').each(function(i){
+        eval($(this).data('llcode'));
+      });
+    });
+  </script>
+
+
+
+
+</body></html>
