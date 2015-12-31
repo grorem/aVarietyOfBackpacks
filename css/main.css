@@ -41,7 +41,7 @@ body.modal {
 .blur{
   width:100%;
 
-  background: url('../img/anaconda/cascade.jpg');
+  background: url('../img/tetMain-14.png');
   background-size: cover;
     background-repeat: no-repeat;
     background-attachment:fixed;
@@ -1117,7 +1117,7 @@ sup{
 }
 
 h1{
-	font-family: thin;
+	font-family: vollkorn;
 	color:	#ffffff;
 	font-size: 77px;
   margin-top:-20px;
