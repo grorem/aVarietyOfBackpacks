@@ -232,7 +232,7 @@ body.modal {
 .backCountry{
 
   padding-bottom:25px;
-
+  z-index: 10;
 }
 
 
@@ -271,7 +271,7 @@ font-family: 'Vollkorn', serif;
 font-family: 'Vollkorn', serif;
 color:#48535a;
 margin-left:55px;
-margin-top:80%;
+margin-top:70%;
 
 
 }
@@ -376,6 +376,16 @@ a:hover{
 
 }
 
+.icon{
+background:url('../img/iconBC-17.png');
+background-size:contain;
+position:absolute;
+top:0%;
+
+height:160px;
+width:160px;
+}
+
 .sectionLeft{
   border-right:1px solid;
   border-color:#333333;
@@ -383,6 +393,7 @@ a:hover{
   width:50%;
   background:url('../img/anaconda/kingsMap-01.png');
   background-size:cover;
+  opacity:.6;
 }
 
 
@@ -400,6 +411,16 @@ a:hover{
     margin-top:50px;
     background:#f2f2f2;
 }
+
+.carryOnSection li{
+    list-style: none;
+    color:#67a5a3;
+    font-size:16px;
+    font-family: vollkorn;
+    float:left;
+    margin-left:20px;
+}
+
 
 .carryOnSectionMainBack_4{
   height:95vh;
@@ -621,6 +642,7 @@ max-width: 90%;
   color:#333333;
   margin-left: 255px;
   margin-bottom:1px;
+
 }
 
 
@@ -629,7 +651,7 @@ max-width: 90%;
 
   max-width:85%;
   margin-left:15%;
-  margin-top:10%;
+  margin-top:4%;
 
 }
 
@@ -907,8 +929,27 @@ font-family: thin;
 
 .backCountry_2{
   display:none;
+  z-index: 10;
 }
 
+
+.backCountry_2 h3{
+  margin-top:67%;
+  z-index: 10;
+}
+
+.trees{
+  position:absolute;
+  right:17%;
+  bottom:18%;
+  width:400px;
+  height:300px;
+  background:url('../img/trees-09.png');
+  background-size:contain;
+  background-repeat: no-repeat;
+  opacity:.4;
+  z-index:0;
+}
 
 
 .summitSectionMainBack{
@@ -2375,12 +2416,14 @@ text-decoration: none;
 .navBadge{
   position: relative;
     z-index: 5;
-    top: 30px;
-    width: 75px;
-    height: 75px;
-    background: #e0696c;
-    transform: rotate(-45deg);
-    -webkit-transform: rotate(-45deg);
+    top: -38px;
+    width: 125px;
+    height: 125px;
+    background: url('../img/mtBadge-12.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: rotate(-180deg);
+    -webkit-transform: rotate(-180deg);
     left: 55px;
 
     margin-left: auto;
@@ -2392,18 +2435,52 @@ text-decoration: none;
 }
 
 .navBadge:hover{
-  transform: rotate(-90deg);
-  -webkit-transform: rotate(-90deg);
+
   cursor: pointer;
 }
 
 
+.subNav{
+  width:100%;
+  height:85px;
+  background:#333333;
+  position:fixed;
+
+  z-index: 18;
+  padding-left:150px;
+  padding-top:50px;
+}
+
+.subNav a{
+  color:#fff;
+}
+
+.subNav a:hover{
+
+  color:#e0696c;
+}
+
+.allNav{
+  position:fixed;
+  top:-42px;
+  z-index: 18;
+
+}
+
+.subNav li{
+  list-style: none;
+  font-family: vollkorn;
+  float:left;
+  font-size: 20px;
+  margin-right:50px;
+}
+
 .backBtn{
   position: relative;
     z-index: 5;
-    top: 55px;
-    width: 25px;
-    height: 25px;
+    top:10px;
+    width: 22px;
+    height: 22px;
 
     transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
@@ -2412,7 +2489,7 @@ text-decoration: none;
     border-top:solid 6px;
     border-left:solid 6px;
 
-    border-color:#e0696c;
+    border-color:#fff;
 
 
     margin-left: auto;
