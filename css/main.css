@@ -718,6 +718,16 @@ background:url('../img/af/winter/winterTrees-12.png');  background-size: cover;
   opacity:.45;
 }
 
+
+.seHeader{
+  position:absolute;
+  height:100vh;
+  width:100%;
+background:url('../img/se/seBack-22.png');  background-size: cover;
+  background-position: top;
+  opacity:.45;
+}
+
 .cirqueHeader{
   position:absolute;
   height:100vh;
