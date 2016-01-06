@@ -728,6 +728,16 @@ background:url('../img/se/seBack-22.png');  background-size: cover;
   opacity:.45;
 }
 
+
+.uaHeader{
+  position:absolute;
+  height:100vh;
+  width:100%;
+background:url('../img/ua2015/ua2015back-22.png');  background-size: cover;
+  background-position: bottom;
+  opacity:.45;
+}
+
 .cirqueHeader{
   position:absolute;
   height:100vh;
@@ -2758,5 +2768,85 @@ max-width:50%;
 .teasers img{
 
 min-height:166px;
+
+}
+
+@media only screen and (max-width: 500px) {
+  h1{font-size:4em;}
+
+  .icoRow{margin-top:55px;}
+  .packIcon {margin-top:45px;}
+  .packIcon img{display:none;}
+
+  .mainPic {
+    position: absolute;
+    left: 0%;
+    top: 42%;
+    margin: auto;
+    width: 100%;
+    z-index: 10;
+  }
+
+    .btnLeft {
+        position: absolute;
+        left: 2%;
+        top: 52%;
+        z-index: 20;
+    }
+
+    .btnRight {
+        position: absolute;
+        left: 72%;
+        top: 52%;
+        z-index: 20;
+    }
+
+    .trees {
+    position: absolute;
+    right: 0%;
+    top: 57%;
+    width: 400px;
+    height: 300px;
+    background: url('../img/trees-09.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: .3;
+    z-index: 0;
+    }
+
+    .yearBadge {
+    position: relative;
+
+    top: -72px;
+    width: 200px;
+    height: 200px;
+
+}
+
+    .sectionLeft {
+    border-right: 1px solid;
+    border-color: #333333;
+    height: 600px;
+    width: 50%;
+    margin-top:-20%;
+    background: url('../img/anaconda/kingsMap-01.png');
+    background-size: cover;
+    opacity: .6;
+    z-index:8;
+    }
+
+    .sectionRight h2{
+
+      z-index: 10;
+
+    }
+
+    .sectionRight{
+      position:absolute;
+      z-index: 10;
+      margin-top:-152%;
+
+    }
+
 
 }
